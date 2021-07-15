@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-danyo-towa",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "ESLint and Prettier Config for JavaScript, React and TypeScript",
   "keywords": [
     "javascript",
