@@ -1,6 +1,6 @@
 module.exports = {
-  extends: ['airbnb', 'plugin:react/recommended', 'plugin:prettier/recommended', 'prettier/react', 'prettier/standard'],
-  parser: 'babel-eslint', // Specifies the ESLint parser
+  extends: ['airbnb', 'plugin:react/recommended', 'plugin:prettier/recommended'],
+  parser: '@babel/eslint-parser', // Specifies the ESLint parser
   parserOptions: {
     ecmaVersion: 2020, // Allows for the parsing of modern ECMAScript features
     sourceType: 'module', // Allows for the use of imports
@@ -8,6 +8,7 @@ module.exports = {
       jsx: true,
       classes: true,
     },
+    requireConfigFile: false,
   },
   env: {
     browser: true,
